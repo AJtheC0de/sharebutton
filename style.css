@@ -1,0 +1,42 @@
+h1 {
+  font-weight: 60;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  background-color: #1a4d2e;
+  padding: 0 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+#text {
+  text-decoration: none;
+  font-size: 10px;
+  color: #e8dfca;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#img {
+  height: 30px;
+  margin-right: 5px;
+  color: #e8dfca;
+  filter: invert(93%) sepia(14%) saturate(259%) hue-rotate(3deg) brightness(95%)
+    contrast(93%);
+}
+
+.buttoncontainer:hover {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 0 20px;
+  border-radius: 20px;
+  box-shadow: grey 30px 30px 30px;
+}
